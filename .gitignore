@@ -5,3 +5,8 @@
 *.log
 
 .kilo/
+
+__pycache__/
+.pytest_cache/
+
+server.js
