@@ -39,6 +39,11 @@ jobs:
           print(f"all {len(set(refs))} local references resolve")
           PY
 
+      - name: Run site tests
+        run: |
+          python3 -m pip install --quiet pytest
+          python3 -m pytest tests/ -q
+
       - name: Broken link check
         uses: lycheeverse/lychee-action@v2
         with:
