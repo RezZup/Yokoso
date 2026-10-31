@@ -4,13 +4,13 @@
 > **LinkedIn:** [https://www.linkedin.com/in/gauravrajbhar00](https://www.linkedin.com/in/gauravrajbhar00)  
 > **Portfolio:** [https://rezzup.github.io/Yokoso/](https://rezzup.github.io/Yokoso/)  
 > **Résumé:** [Google Drive](https://drive.google.com/file/d/1AzFnQRpkQEt-5lDo_UKrimBbRCY4qtZL/view?usp=sharing)  
-> **Generated:** October 2026 | Comprehensive codebase audit across `D:\ProjectsGit`
+> **Updated:** November 2026
 
 ---
 
 ## 🧭 Overview & Quick Navigation
 
-This document is the **single source of truth** for all projects in `D:\ProjectsGit`. It contains accurate technical summaries, feature breakdowns, architecture notes, metrics, tech stacks, and GitHub repository links — formatted for direct use in portfolios, resumes, and technical interviews.
+This document is the long-form reference for my projects. It contains accurate technical summaries, feature breakdowns, architecture notes, metrics, tech stacks, and GitHub repository links — formatted for direct use in portfolios, resumes, and technical interviews.
 
 ### Quick Reference Matrix
 
@@ -29,9 +29,9 @@ This document is the **single source of truth** for all projects in `D:\Projects
 | 11 | **DrishtiSetu (SIH 2026)** | Geospatial AI / Relocation DSS | [RezZup/-DrishtiSetu](https://github.com/RezZup/-DrishtiSetu) | ✅ Public | — |
 | 12 | **SIHv2 Notification Hub** | Alert Delivery / Testing Suite | [RezZup/SIHv2](https://github.com/RezZup/SIHv2) | ✅ Public | — |
 | 13 | **UNO Multiplayer** | Game Engine / Real-Time Full-Stack | [RezZup/UNO](https://github.com/RezZup/UNO) | ✅ Public | — |
-| 14 | **Discord Fix English** | Browser Extension / AI Assistant | Local: `extention/` | 💻 Local | — |
+| 14 | **Discord Fix English** | Browser Extension / AI Assistant | — | 💻 Not published yet | — |
 | 15 | **n8n AI Workflows** | Workflow Automation / GenAI | [RezZup/n8n-workflows](https://github.com/RezZup/n8n-workflows) | ✅ Public | — |
-| 16 | **RAKSHAMAP (ritik)** | Geospatial / PostGIS Decision | Local: `ritik/` | 💻 Local | — |
+| 16 | **RAKSHAMAP (ritik)** | Geospatial / PostGIS Decision | — | 💻 Not published yet | — |
 
 ---
 
@@ -43,21 +43,20 @@ This document is the **single source of truth** for all projects in `D:\Projects
 ================================================================================
 ```
 * **Title:** Yokoso — Cinematic Scroll-Driven 3D Kyoto Temple Portfolio
-* **Local Path:** `D:\ProjectsGit\Portfolio\kageOP2`
 * **GitHub Repository:** [https://github.com/RezZup/Yokoso](https://github.com/RezZup/Yokoso)
 * **Live Deployment:** [https://rezzup.github.io/Yokoso/](https://rezzup.github.io/Yokoso/)
 * **Domain:** Creative Development • WebGL • 3D Graphics • Front-End Engineering
 
 #### 📖 Description
-Yokoso is an immersive, single-page portfolio designed as a five-chapter night walk through an atmospheric Kyoto mountain temple. Instead of abrupt page jumps or standard flat layouts, the entire site is rendered as a continuous, full-viewport WebGL scene where scrolling dynamically drives the camera along a 3D bezier trajectory through torii gates, stone stairs, lantern-lit walkways, and temple courtyards.
+Yokoso is an immersive, single-page portfolio designed as a five-chapter night walk through an atmospheric Kyoto mountain temple. Instead of abrupt page jumps or standard flat layouts, the entire site is rendered as a continuous, full-viewport WebGL scene where scrolling dynamically drives the camera along a 3D Catmull-Rom spline through a torii gate, a stone stair flight, lantern-lit approaches and a lit worship hall.
 
-Every element of the 3D environment — the temple structure, tiered roofs, stone lanterns with flame glows, misty mountainous terrain, falling rain, drifting sakura blossom petals, volumetric fog, and the vermilion full moon — is procedurally synthesized directly in code (Three.js shaders and geometry) without requiring external 3D model files (.gltf / .obj). Each portfolio project card features an interactive mini-viewport that dynamically renders a real-time 3D Three.js scene upon hover.
+Every element of the 3D environment — the worship hall, torii gate, stone lanterns with flame glow, wooded ridge, haze, falling rain, drifting leaves, embers, and the vermilion moon — is procedurally synthesized directly in code (Three.js geometry, materials and shaders) without requiring external 3D model files (.gltf / .obj). Each portfolio project card features an interactive mini-viewport that dynamically renders a real-time 3D Three.js scene upon hover.
 
 #### 🌟 Key Features
-- **Procedural 3D World:** Zero 3D model asset dependencies. Temple pagodas, torii, lanterns, terrain, fog, rain, sakura petals, and moon generated in code.
-- **Scroll-Driven Camera Path:** Continuous bezier camera journey powered by Lenis smooth scrolling.
+- **Procedural 3D World:** Zero 3D model asset dependencies. Worship hall, torii, lanterns, maples, ridge, haze, rain, leaf fall, and moon generated in code.
+- **Scroll-Driven Camera Path:** Continuous Catmull-Rom camera journey powered by Lenis smooth scrolling.
 - **Interactive Mini-Viewports:** Live Three.js 3D canvas renderers embedded directly inside project cards.
-- **Micro-Interactions & Visual Polish:** Word-by-word text reveals, multi-layer parallax foreground cutouts, chromatic bloom, film grain, and custom cursor.
+- **Micro-Interactions & Visual Polish:** Word-by-word text reveals, multi-layer parallax foreground cutouts, bloom, film grain, and custom cursor.
 - **Zero Build Tooling:** Pure HTML5, CSS3, and JavaScript — no bundlers or complex build setups required.
 - **Performance & Accessibility:** Semantic landmarks, keyboard skip links, `prefers-reduced-motion` fallbacks, and 100% self-hosted assets.
 
@@ -72,7 +71,6 @@ Three.js (WebGL), Lenis Smooth Scroll, Vanilla JavaScript (ES6+), Modern CSS3, H
 ================================================================================
 ```
 * **Title:** ClothyRec — AI-Powered Fashion Stylist & Visual Recommender
-* **Local Path:** `D:\ProjectsGit\Atelier`
 * **GitHub Repository:** [https://github.com/RezZup/Clothy-.-Rec](https://github.com/RezZup/Clothy-.-Rec)
 * **Domain:** Computer Vision • Deep Learning • Recommendation Systems • Multimodal AI
 
@@ -98,7 +96,6 @@ Python 3.10+, PyTorch, OpenCLIP, FAISS, YOLOv8 Pose, MTCNN, ResNet-50, Efficient
 ================================================================================
 ```
 * **Title:** Suraksha Setu — AI-Powered Disaster Early Warning & Decision Support System
-* **Local Path:** `D:\ProjectsGit\Suraksha Setu` / `D:\ProjectsGit\Project` / `D:\ProjectsGit\sihh`
 * **GitHub Repository:** [https://github.com/RezZup/Suraksha-Setu](https://github.com/RezZup/Suraksha-Setu)
 * **Recognition:** 🏆 **State Winner & National Finalist** — OpenAI × NextWave Buildathon (500+ teams)
 * **Domain:** Applied AI • Disaster Management • Geospatial Intelligence • Full-Stack Systems
@@ -127,7 +124,6 @@ React 19, FastAPI, PyTorch, OpenAI GPT-4o, Whisper, Leaflet GIS, PostgreSQL / SQ
 ================================================================================
 ```
 * **Title:** AI-Powered Air Quality Intelligence & Leakage-Safe AQI Forecasting
-* **Local Path:** `D:\ProjectsGit\IBM\AQI`
 * **GitHub Repository:** [https://github.com/RezZup/AI-Powered-Air-Quality-Intelligence-AQI-Forecasting](https://github.com/RezZup/AI-Powered-Air-Quality-Intelligence-AQI-Forecasting)
 * **Credential:** AICTE | IBM SkillsBuild Data Analytics with AI Internship 2026 | BharatCares
 * **Domain:** Machine Learning • Time-Series Forecasting • Explainable AI (XAI)
@@ -181,7 +177,6 @@ React, FastAPI, MySQL, JWT, Docker, Firebase Auth, Tailwind CSS, Recharts.
 ================================================================================
 ```
 * **Title:** EnergiX — Energy-Aware CPU Scheduling Simulator with Adaptive DVFS
-* **Local Path:** `D:\ProjectsGit\EnergiX-Adaptive-Power-Optimized-Scheduler`
 * **GitHub Repository:** [https://github.com/RezZup/EnergiX-Adaptive-Power-Optimized-Scheduler](https://github.com/RezZup/EnergiX-Adaptive-Power-Optimized-Scheduler)
 * **Live Deployment:** [https://energi-x-adaptive-power-optimized-s.vercel.app](https://energi-x-adaptive-power-optimized-s.vercel.app)
 * **Domain:** Systems Engineering • Operating Systems • Power Optimization • Web Simulators
@@ -209,7 +204,6 @@ Python 3.11, FastAPI, Chart.js, HTML5 Canvas, Modern JavaScript, Tailwind CSS, V
 ================================================================================
 ```
 * **Title:** GCMaxy — Interactive Garbage Collection & Memory Management Simulator
-* **Local Path:** `D:\ProjectsGit\GDMaxy`
 * **GitHub Repository:** [https://github.com/RezZup/GDMaxy](https://github.com/RezZup/GDMaxy)
 * **Live Deployment:** [https://gd-maxy-8dwf.vercel.app](https://gd-maxy-8dwf.vercel.app)
 * **Domain:** Systems Programming • Runtime Internals • Memory Management • Interactive Tools
@@ -237,7 +231,6 @@ React, D3.js, Shadcn UI, FastAPI, Python, Tailwind CSS, Vercel, Railway.
 ================================================================================
 ```
 * **Title:** ConnectHub — Real-Time Messaging Platform with WebSockets & WebRTC
-* **Local Path:** `D:\ProjectsGit\chatroom`
 * **GitHub Repository:** [https://github.com/RezZup/ChatRoom](https://github.com/RezZup/ChatRoom)
 * **Domain:** Full-Stack • Real-Time WebSockets • Communications • WebRTC
 
@@ -264,7 +257,6 @@ React, FastAPI, WebSockets, WebRTC, MongoDB (Motor), Framer Motion, Tailwind CSS
 ================================================================================
 ```
 * **Title:** GlobalHeat — Interactive Climate Change Awareness & Data Platform
-* **Local Path:** `D:\ProjectsGit\GlobalHeat`
 * **GitHub Repository:** [https://github.com/RezZup/GlobalHeat](https://github.com/RezZup/GlobalHeat)
 * **Domain:** Front-End Development • Data Visualization • Climate Awareness
 
@@ -290,7 +282,6 @@ HTML5, CSS3, JavaScript (ES6+), Chart.js, AOS (Animate On Scroll), Font Awesome,
 ================================================================================
 ```
 * **Title:** Nexora V2.0 — AI-Powered Startup Incubation & Venture Management Platform
-* **Local Path:** `D:\ProjectsGit\nexora2.3` / `D:\ProjectsGit\Nexora`
 * **GitHub Repository:** [https://github.com/RezZup/NexoraV2.0](https://github.com/RezZup/NexoraV2.0)
 * **Domain:** Full-Stack MERN • AI SaaS • Entrepreneurship & Venture Capital
 
@@ -317,7 +308,6 @@ React.js, Node.js, Express.js, MongoDB Atlas, Tailwind CSS, JWT Authentication, 
 ================================================================================
 ```
 * **Title:** DrishtiSetu — AI-Assisted GIS Disaster Relocation Decision Support System
-* **Local Path:** `D:\ProjectsGit\SIH`
 * **GitHub Repository:** [https://github.com/RezZup/-DrishtiSetu](https://github.com/RezZup/-DrishtiSetu)
 * **Competition:** Smart India Hackathon (SIH 2026) Prototype
 * **Domain:** Disaster Relocation • Geospatial Intelligence • Multi-Agent Systems • Explainable AI
@@ -345,7 +335,6 @@ Python, FastAPI, PostGIS, QGIS / Leaflet, RAG (Retrieval-Augmented Generation), 
 ================================================================================
 ```
 * **Title:** SIHv2 — Pincode-Optimized Multi-Channel Disaster Alert Hub
-* **Local Path:** `D:\ProjectsGit\sihh`
 * **GitHub Repository:** [https://github.com/RezZup/SIHv2](https://github.com/RezZup/SIHv2)
 * **Domain:** High-Throughput Alert Infrastructure • Multi-Channel Messaging • Systems Verification
 
@@ -371,7 +360,6 @@ Python 3.10+, FastAPI, Telegram Bot API, Twilio / SMS Gateways, WhatsApp Cloud A
 ================================================================================
 ```
 * **Title:** UNO — Full-Stack Real-Time Multiplayer Card Game
-* **Local Path:** `D:\ProjectsGit\UNO`
 * **GitHub Repository:** [https://github.com/RezZup/UNO](https://github.com/RezZup/UNO)
 * **Domain:** Game Development • Real-Time Web • Full-Stack Systems
 
@@ -397,7 +385,6 @@ React, Python, FastAPI, WebSockets / REST API, CSS Animations, Uvicorn.
 ================================================================================
 ```
 * **Title:** Discord Fix English — Contextual AI Grammar & Tone Assistant
-* **Local Path:** `D:\ProjectsGit\extention`
 * **Domain:** Browser Extensions • AI Utilities • Natural Language Processing
 
 #### 📖 Description
@@ -422,7 +409,6 @@ Chrome Extension Manifest V3, Vanilla JavaScript, CSS3 DOM Injection, Node.js, E
 ================================================================================
 ```
 * **Title:** Autonomous AI Content Creation & Scheduling Workflows
-* **Local Path:** `D:\ProjectsGit\n8n-workflow`
 * **GitHub Repository:** [https://github.com/RezZup/n8n-workflows](https://github.com/RezZup/n8n-workflows)
 * **Domain:** Workflow Automation • Generative AI Pipelines • Content Automation
 
@@ -447,7 +433,6 @@ n8n Workflow Engine, Google Sheets API, ElevenLabs Voice AI, Creatomate API, Sor
 ================================================================================
 ```
 * **Title:** RAKSHAMAP — Spatial Database & Relocation Decision Engine
-* **Local Path:** `D:\ProjectsGit\ritik` / `D:\ProjectsGit\ritik 2\RAKSHAMAP`
 * **Domain:** Geospatial Databases • Spatial Relocation • PostGIS • Backend Architecture
 
 #### 📖 Description
@@ -465,15 +450,3 @@ The system features reproducible database provisioning via Docker Compose, Alemb
 PostgreSQL 16, PostGIS 3.4, Python 3.10+, FastAPI, Alembic, Docker Compose, Vite, React, GeoJSON.
 
 ---
-
-## 💡 How to Use This in Your Portfolio
-
-When selecting projects to showcase on your portfolio site ([Yokoso](https://rezzup.github.io/Yokoso/)):
-
-### Recommended Pinned Projects:
-1. **ClothyRec (Atelier):** Best for demonstrating advanced AI/ML, PyTorch, OpenCLIP, FAISS, and Computer Vision.
-2. **Suraksha Setu:** Best for showing full-stack applied AI, multi-agent architectures, real-world social impact, and hackathon victory (OpenAI × NextWave Buildathon Winner).
-3. **EnergiX:** Best for showcasing systems engineering, operating system internals, algorithm design, and energy optimization.
-4. **AI-Powered Air Quality Forecasting (IBM):** Best for displaying rigorous data analytics, leakage-safe time-series methodology, and Explainable AI (SHAP).
-5. **GDMaxy:** Best for visual, interactive computer science education and memory management visualization.
-6. **AlumUnity:** Best for demonstrating enterprise full-stack development with React, FastAPI, RBAC, and clean software architecture.
