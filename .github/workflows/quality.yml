@@ -13,7 +13,7 @@ jobs:
   html-and-links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Parse index.html and 404.html
         run: |
