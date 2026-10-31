@@ -1,7 +1,9 @@
 {
+  "id": "./",
   "name": "Gaurav Rajbhar — Portfolio",
   "short_name": "G. Rajbhar",
   "description": "Cinematic WebGL portfolio — AI/ML, computer vision, backend and full-stack work.",
+  "lang": "en",
   "start_url": "./",
   "scope": "./",
   "display": "browser",
